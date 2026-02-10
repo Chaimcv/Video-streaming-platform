@@ -28,7 +28,7 @@ const AllVideo = () => {
              ))
             
           ):( 
-        <div><h1>No videos  available</h1></div>
+        <div><h1>No  videos  available</h1></div>
           )
         }   
         </div> 
