@@ -4,7 +4,8 @@ import VideoCard from './VideoCard';
 import { Link } from 'react-router-dom';
 
 const AllVideo = () => {
-    const url=process.env.REACT_API;
+    const url=process.env.REACT_APP_API_URL;
+    console.log(url,"url");
     const[videos,setVideos]=useState();
     
         useEffect(()=>{

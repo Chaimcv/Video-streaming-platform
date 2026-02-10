@@ -16,3 +16,4 @@ export const LIVE_CHAT_COUNT=20;
 
 export const API_TEST="https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=US&key=AIzaSyBET7NpkeY1-2C83Ttprk0q3KeHfZouK5I";
  export const SEARCH_TEST="https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=bollywoodsongs&key=AIzaSyBET7NpkeY1-2C83Ttprk0q3KeHfZouK5I";
+ export const HERO_VIDEO="https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=mittidikushboo&key=AIzaSyBET7NpkeY1-2C83Ttprk0q3KeHfZouK5I";
