@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { YOUTUBE_SEARCH_API } from "../utils/constants";
 import { cacheResults } from "../utils/searchSlice";
 
-const Head = () => {
+const Header = () => {
   const dispatch = useDispatch();
 
    //search bar
@@ -94,4 +94,4 @@ console.log(searchQuery);
   );
 };
 
-export default Head;
+export default Header;

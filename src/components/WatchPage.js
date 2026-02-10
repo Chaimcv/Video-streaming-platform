@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { closeMenu } from "../utils/appSlice";
 import { useSearchParams } from "react-router-dom";
-import CommentsContainer from "./CommentsContainer";
-import LiveChat from "./LiveChat";
 
 const WatchPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -28,12 +26,9 @@ const WatchPage = () => {
       ></iframe>
     
       </div>
-      <div className="w-full h-[500px] bg-slate-100">
-        <LiveChat />
-      </div>
+      
     </div>
-    {/* <div className="bg-red h-10 w-full"></div> */}
-    <CommentsContainer />
+   
     </div>
   );
 };

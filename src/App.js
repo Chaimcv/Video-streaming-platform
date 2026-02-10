@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Head from './components/Head';
 import Body from './components/Body';
 import { Provider } from 'react-redux';
 import store from './utils/Store';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import MainContainer from './components/MainContainer';
 import WatchPage from './components/WatchPage';
+import Header from './components/Header';
 const appRouter=createBrowserRouter([{
   path:"/",
   element:<Body />,
@@ -24,7 +24,7 @@ function App() {
   return (
     <Provider store={store}>
     <div>
-      <Head />
+      <Header />
       <RouterProvider router={appRouter}/>
     </div>
     </Provider>
