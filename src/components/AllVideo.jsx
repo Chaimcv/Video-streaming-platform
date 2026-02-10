@@ -4,7 +4,7 @@ import VideoCard from './VideoCard';
 import { Link } from 'react-router-dom';
 
 const AllVideo = () => {
-    const url=process.env.REACT_APP_API_URL;
+    const url=process.env.REACT_APP_API_YOUTUBE;
     console.log(url,"url");
     const[videos,setVideos]=useState();
     
@@ -12,7 +12,7 @@ const AllVideo = () => {
             getVideo();
         },[]);
         const getVideo=async () =>{
-            const data =await fetch(SEARCH_TEST);
+            const data =await fetch(url);
            const json=await data.json();
             console.log(json,"videos accessed");
             setVideos(json.items);

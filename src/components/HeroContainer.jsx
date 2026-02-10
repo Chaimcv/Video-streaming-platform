@@ -15,8 +15,11 @@ const HeroContainer = () => {
             };
             console.log(heroVideo,"videos");
   return (
-    <div className='bg-red-400 w-full h-52'>
-       {/* <img className='rounded-lg ' src="https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=mittidikushboo&key=AIzaSyBET7NpkeY1-2C83Ttprk0q3KeHfZouK5I" alt='video' /> */}
+    <div className='relative h-screen'>
+             <video autoPlay loop muted playsInline className="video-bg">
+        <source src="https://tecdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4" />
+      </video>
+      <button className='absolute mt-[550px] ml-20 bg-white text-black p-3'>Watch Now</button>
     </div>
   )
 }

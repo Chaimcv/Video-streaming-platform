@@ -9,10 +9,10 @@ const Sidebar = () => {
     if(!isMenuOpen) return null;
 
   return (
-    <div className='p-5 shadow-md'>
+    <div className='p-5 shadow-md bg-[#0f1014]'>
         
         <ul>
-            <li  className=' hover:bg-slate-100 rounded-lg'><Link to="/"><img className="w-10 h-10 inline-flex" src="https://endlessicons.com/wp-content/uploads/2012/11/home-icon-614x460.png" alt='Home' /></Link></li>
+            <li  className='rounded-lg'><Link to="/"><img className="w-10 h-10 inline-flex" src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/home-white-icon.png" alt='Home' /></Link></li>
             <li className=' hover:bg-slate-100 rounded-lg'> <img className="w-4 h-4 inline-flex m-3" src="https://e7.pngegg.com/pngimages/342/516/png-clipart-computer-icons-search-icon-zooming-user-interface-computer-icons-thumbnail.png" alt='search' /></li>
           
     
