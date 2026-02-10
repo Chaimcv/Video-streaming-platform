@@ -43,11 +43,6 @@ console.log(searchQuery);
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1280px-Hamburger_icon.svg.png"
           alt="hamburger menu"
         ></img>
-        <img
-          className="h-6"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png"
-          alt="logo"
-        ></img>
       </div>
       <div className="col-span-10 justify-center flex inline-block">
         <input
