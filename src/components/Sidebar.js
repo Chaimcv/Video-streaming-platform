@@ -9,10 +9,10 @@ const Sidebar = () => {
     if(!isMenuOpen) return null;
 
   return (
-    <div className='p-5 shadow-md bg-[#0f1014]'>
-        
+    // <div className='p-5 shadow-md bg-[#0f1014]'>
+        <div>
         <ul>
-            <li  className='rounded-lg'><Link to="/"><img className="w-10 h-10 inline-flex" src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/home-white-icon.png" alt='Home' /></Link></li>
+            <li  className=' hover:bg-slate-200 rounded-lg'><Link to="/"><img className="w-10 h-10 inline-flex" src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/home-white-icon.png" alt='Home' /></Link></li>
             <li className=' hover:bg-slate-100 rounded-lg'> <img className="w-4 h-4 inline-flex m-3" src="https://e7.pngegg.com/pngimages/342/516/png-clipart-computer-icons-search-icon-zooming-user-interface-computer-icons-thumbnail.png" alt='search' /></li>
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" src="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/playlist-videos-icon.png" alt='playlist' /></li>
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" src="https://www.pngfind.com/pngs/m/286-2863936_png-file-svg-youtube-like-button-white-transparent.png" alt='liked videos' /></li>
@@ -20,7 +20,9 @@ const Sidebar = () => {
             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-6 h-6 inline-flex m-2" src="https://cdn.vectorstock.com/i/750p/24/90/monochrome-simple-clapperboard-icon-vector-36902490.avif" alt='films'/></li>
             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png" alt='user' /></li>
        
-             
+            <li> 
+            <button type="button" className="_26yr3X3XOY5BQGjGXvoN0 flex items-center _1oXExlif1w0_wFOsQMRUZD duration-200 ease-in-out transform origin-left transition-transform BUTTON2_SEMIBOLD ON_IMAGE GLOW_DEFAULT"><span class="LHDmaByQeS8uy1wgLgxz_ py-SPACE_05"><i class="icon-home-fill soul-icon NAV_ICON_FONT_SIZE" aria-hidden="true"></i></span><span class="iSrBs_QO1GJ0bSEfkBOWL hidden whitespace-nowrap FRw2gM_gUBhGmzYJ9LFz5"><p class="">Home</p></span></button>
+       </li>
         </ul>
         < br/>
        

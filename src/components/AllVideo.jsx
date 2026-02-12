@@ -8,11 +8,14 @@ const AllVideo = () => {
     console.log(url,"url");
     const[videos,setVideos]=useState();
     
+
+
         useEffect(()=>{
             getVideo();
         },[]);
         const getVideo=async () =>{
-            const data =await fetch(url);
+            //const data =await fetch(url);
+            const data =await fetch(SEARCH_TEST);
            const json=await data.json();
             console.log(json,"videos accessed");
             setVideos(json.items);
