@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Body from './components/Body';
 import { Provider } from 'react-redux';
-import store from './utils/Store';
+import store from './Redux/Store';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import MainContainer from './components/MainContainer';
 import WatchPage from './components/WatchPage';

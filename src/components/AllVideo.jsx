@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { API_TEST, SEARCH_TEST } from '../utils/constants';
+import { API_TEST, SEARCH_TEST } from '../Redux/constants';
 import VideoCard from './VideoCard';
 import { Link } from 'react-router-dom';
 

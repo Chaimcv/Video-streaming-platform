@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { HERO_VIDEO } from '../utils/constants';
+import { HERO_VIDEO } from '../Redux/constants';
 
 const HeroContainer = () => {
     const[heroVideo,setHeroVideo]=useState();
