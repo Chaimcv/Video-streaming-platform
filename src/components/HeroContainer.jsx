@@ -3,7 +3,7 @@ import { HERO_VIDEO } from '../utils/constants';
 
 const HeroContainer = () => {
     const[heroVideo,setHeroVideo]=useState();
-
+     const videoArray=[""]
       useEffect(()=>{
                 getVideo();
             },[]);
@@ -15,11 +15,10 @@ const HeroContainer = () => {
             };
             console.log(heroVideo,"videos");
   return (
-    <div className='relative h-screen'>
+    <div className='relative'>
              <video autoPlay loop muted playsInline className="video-bg">
-        <source src="https://tecdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4" />
+        {/* <source src="https://tecdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4" /> */}
       </video>
-      <button className='absolute mt-[550px] ml-20 bg-white text-black p-3'>Watch Now</button>
     </div>
   )
 }

@@ -44,7 +44,7 @@ console.log(searchQuery);
           alt="hamburger menu"
         ></img>
       </div>
-      <div className="col-span-10 justify-center flex inline-block">
+      <div className="col-span-10 justify-center  inline-block">
         <input
           type="text"
           placeholder="  Search"
