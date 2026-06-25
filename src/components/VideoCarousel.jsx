@@ -9,7 +9,8 @@ const VideoCarousel = ({passedVideos}) => {  //not passed yet to be done....
         setcurrentIndex((prev)=>(prev-1+passedVideos.length)%passedVideos.length);
     }
   return (
-    <div>VideoCArousel</div>
+    <div>VideoCArousel
+    </div>
   )
 }
 
